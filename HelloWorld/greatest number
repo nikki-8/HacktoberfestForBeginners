@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;
+printf("Enter 1st,2nd and 3rd number\n1st:\n2nd:\n3rd:\n");
+scanf("%d%d%d",&a,&b,&c);
+if(a>b && a>c)
+printf("First number is greatest :%d",a);
+else if(b>c && b>a)
+printf("Second number is greatest :%d",b);
+else
+printf("Third number is greatest :%d",c);
+}
